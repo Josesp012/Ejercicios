@@ -7,3 +7,13 @@ h1{
 p{
     text-align: right;
 }
+.descripcion{
+    font-weight: bold;
+    color:blue;
+}
+.especial{
+    background-color: yellow;
+}
+#encabezado{
+    background-color: green;
+}
