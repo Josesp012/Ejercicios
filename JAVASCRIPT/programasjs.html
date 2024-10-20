@@ -14,14 +14,20 @@
         //Tipos de variables
         let nombre="Jose"; let numero=42; let decimal=10.66; let Verdadero=true;
         let nulo=null; let persona={nombre:"Jose", edad:"25"};
-
-
         document.write(nombre); document.write("<br>"); 
         document.write(numero); document.write("<br>");
         document.write(decimal); document.write("<br>");
         document.write(Verdadero); document.write("<br>");
         document.write(nulo);  document.write("<br>");
-        document.write(persona.edad);
+        document.write(persona.edad); document.write("<br>");
+        //Concatenar
+        nombre="Jose"; apellido="Salazar";
+        document.write(nombre + " " + apellido); document.write("<br>");
+        document.write(nombre.concat(apellido)); document.write("<br>");
+        document.write(nombre, " ", apellido); document.write("<br>");
+        let precio=500;
+        document.write("Precio: ", precio);
+
     </script>
     <script src="main.js"></script>
 </body>
