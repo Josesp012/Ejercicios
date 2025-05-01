@@ -8,7 +8,7 @@ int main(){
         scanf("%d",&arreglo[i]);
     }//for
     for (int j = 0; j < 10; j++){
-        printf("\nel valor %d fue %d",j+11,arreglo[j]);
+        printf("\nel valor %d fue %d",j+1,arreglo[j]);
     }//for
     return 0;
 }//main
