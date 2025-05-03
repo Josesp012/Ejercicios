@@ -11,20 +11,16 @@ contar
 */
 #include <stdio.h>
 int main(){
-    int n=6, c=1;
-    for(int i=2; i<n;i++){
+    int n=20;
+    for(int i=2;i<n;i++){
   	if(n%i==0){
     n/=i;
-    printf("%d %d \n",i,n);
+    printf("%d\n",i);
+    i=1;
     }
     }
-    /*
-    if(c>2){
-  	    printf("No es primo");
-    }else{
   	printf("%d",n);
-    }
-    */
+    
     
     
 
